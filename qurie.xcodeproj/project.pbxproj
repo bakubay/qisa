@@ -7,21 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0400AE1A211C5F3000582717 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400AE19211C5F3000582717 /* Connectivity.swift */; };
 		0414CAB22109BA8400FF45C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414CAB12109BA8400FF45C4 /* AppDelegate.swift */; };
-		0414CAB42109BA8400FF45C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414CAB32109BA8400FF45C4 /* ViewController.swift */; };
+		0414CAB42109BA8400FF45C4 /* ChooseTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414CAB32109BA8400FF45C4 /* ChooseTimeView.swift */; };
 		0414CAB72109BA8400FF45C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0414CAB52109BA8400FF45C4 /* Main.storyboard */; };
-		0414CAB92109BA8700FF45C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0414CAB82109BA8700FF45C4 /* Assets.xcassets */; };
 		0414CABC2109BA8700FF45C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0414CABA2109BA8700FF45C4 /* LaunchScreen.storyboard */; };
+		0414CAC42109BCF900FF45C4 /* StoriesGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414CAC32109BCF900FF45C4 /* StoriesGetter.swift */; };
+		046C9F7F211976FF00556049 /* stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 046C9F7E211976FF00556049 /* stopwatch.png */; };
+		046C9F8F211B5DD400556049 /* timerIconBigger.png in Resources */ = {isa = PBXBuildFile; fileRef = 046C9F8B211B5DD400556049 /* timerIconBigger.png */; };
+		046C9F91211B63F200556049 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 046C9F90211B63F200556049 /* data.json */; };
+		046C9FA4211C200A00556049 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046C9FA3211C200A00556049 /* Media.xcassets */; };
+		046C9FA6211C301300556049 /* CategoryButtonsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C9FA5211C301300556049 /* CategoryButtonsCollection.swift */; };
+		046C9FAA211C31BE00556049 /* CategoryButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C9FA9211C31BE00556049 /* CategoryButtonCell.swift */; };
+		046C9FAC211C3B9700556049 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C9FAB211C3B9700556049 /* CategoryItem.swift */; };
+		04BE2449210EDCA6006B1A3D /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE2448210EDCA6006B1A3D /* StoryView.swift */; };
+		04BE244B211070BC006B1A3D /* StringExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE244A211070BC006B1A3D /* StringExtention.swift */; };
+		5B7FD815FBE559F8528C9164 /* Pods_qurie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF8FE5899A6898B181E3339 /* Pods_qurie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0400AE19211C5F3000582717 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 		0414CAAE2109BA8400FF45C4 /* qurie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qurie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0414CAB12109BA8400FF45C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0414CAB32109BA8400FF45C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0414CAB32109BA8400FF45C4 /* ChooseTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTimeView.swift; sourceTree = "<group>"; };
 		0414CAB62109BA8400FF45C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0414CAB82109BA8700FF45C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0414CABB2109BA8700FF45C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0414CABD2109BA8700FF45C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0414CAC32109BCF900FF45C4 /* StoriesGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesGetter.swift; sourceTree = "<group>"; };
+		046C9F7E211976FF00556049 /* stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch.png; sourceTree = "<group>"; };
+		046C9F8B211B5DD400556049 /* timerIconBigger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timerIconBigger.png; sourceTree = "<group>"; };
+		046C9F90211B63F200556049 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = "../../../../MyAPP design/preloader/json/data.json"; sourceTree = "<group>"; };
+		046C9F96211C0C0000556049 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		046C9FA3211C200A00556049 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		046C9FA5211C301300556049 /* CategoryButtonsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButtonsCollection.swift; sourceTree = "<group>"; };
+		046C9FA9211C31BE00556049 /* CategoryButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButtonCell.swift; sourceTree = "<group>"; };
+		046C9FAB211C3B9700556049 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		04BE2448210EDCA6006B1A3D /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		04BE244A211070BC006B1A3D /* StringExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtention.swift; sourceTree = "<group>"; };
+		26F6AE020A901EB0513D8283 /* Pods-qurie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qurie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qurie/Pods-qurie.debug.xcconfig"; sourceTree = "<group>"; };
+		3C148C135A6CBD2601D24CB1 /* Pods-qurie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qurie.release.xcconfig"; path = "Pods/Target Support Files/Pods-qurie/Pods-qurie.release.xcconfig"; sourceTree = "<group>"; };
+		4FF8FE5899A6898B181E3339 /* Pods_qurie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qurie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7FD815FBE559F8528C9164 /* Pods_qurie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +66,8 @@
 			children = (
 				0414CAB02109BA8400FF45C4 /* qurie */,
 				0414CAAF2109BA8400FF45C4 /* Products */,
+				BDBD81E2B0FB5700F768D43D /* Pods */,
+				BC8578F19D0E6453EC9260E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,66 @@
 		0414CAB02109BA8400FF45C4 /* qurie */ = {
 			isa = PBXGroup;
 			children = (
+				046C9F7B2119767A00556049 /* Assets */,
 				0414CAB12109BA8400FF45C4 /* AppDelegate.swift */,
-				0414CAB32109BA8400FF45C4 /* ViewController.swift */,
+				046C9F82211AA5C600556049 /* View Controllers */,
+				046C9F83211AA5E100556049 /* Helpers */,
 				0414CAB52109BA8400FF45C4 /* Main.storyboard */,
-				0414CAB82109BA8700FF45C4 /* Assets.xcassets */,
 				0414CABA2109BA8700FF45C4 /* LaunchScreen.storyboard */,
 				0414CABD2109BA8700FF45C4 /* Info.plist */,
+				0400AE19211C5F3000582717 /* Connectivity.swift */,
 			);
 			path = qurie;
+			sourceTree = "<group>";
+		};
+		046C9F7B2119767A00556049 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				046C9F7E211976FF00556049 /* stopwatch.png */,
+				046C9F96211C0C0000556049 /* Icon.png */,
+				046C9F8B211B5DD400556049 /* timerIconBigger.png */,
+				046C9F90211B63F200556049 /* data.json */,
+				046C9FA3211C200A00556049 /* Media.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		046C9F82211AA5C600556049 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0414CAB32109BA8400FF45C4 /* ChooseTimeView.swift */,
+				04BE2448210EDCA6006B1A3D /* StoryView.swift */,
+				046C9FA5211C301300556049 /* CategoryButtonsCollection.swift */,
+				046C9FAB211C3B9700556049 /* CategoryItem.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		046C9F83211AA5E100556049 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0414CAC32109BCF900FF45C4 /* StoriesGetter.swift */,
+				04BE244A211070BC006B1A3D /* StringExtention.swift */,
+				046C9FA9211C31BE00556049 /* CategoryButtonCell.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BC8578F19D0E6453EC9260E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FF8FE5899A6898B181E3339 /* Pods_qurie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDBD81E2B0FB5700F768D43D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F6AE020A901EB0513D8283 /* Pods-qurie.debug.xcconfig */,
+				3C148C135A6CBD2601D24CB1 /* Pods-qurie.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0414CAC02109BA8700FF45C4 /* Build configuration list for PBXNativeTarget "qurie" */;
 			buildPhases = (
+				2B671F878FAA89A808479CED /* [CP] Check Pods Manifest.lock */,
 				0414CAAA2109BA8400FF45C4 /* Sources */,
 				0414CAAB2109BA8400FF45C4 /* Frameworks */,
 				0414CAAC2109BA8400FF45C4 /* Resources */,
+				03E391B9DEBB357765FFAD2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +204,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046C9F8F211B5DD400556049 /* timerIconBigger.png in Resources */,
 				0414CABC2109BA8700FF45C4 /* LaunchScreen.storyboard in Resources */,
-				0414CAB92109BA8700FF45C4 /* Assets.xcassets in Resources */,
+				046C9F91211B63F200556049 /* data.json in Resources */,
 				0414CAB72109BA8400FF45C4 /* Main.storyboard in Resources */,
+				046C9F7F211976FF00556049 /* stopwatch.png in Resources */,
+				046C9FA4211C200A00556049 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E391B9DEBB357765FFAD2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-qurie/Pods-qurie-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qurie/Pods-qurie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B671F878FAA89A808479CED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qurie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0414CAAA2109BA8400FF45C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0414CAB42109BA8400FF45C4 /* ViewController.swift in Sources */,
+				0414CAB42109BA8400FF45C4 /* ChooseTimeView.swift in Sources */,
+				046C9FA6211C301300556049 /* CategoryButtonsCollection.swift in Sources */,
+				0400AE1A211C5F3000582717 /* Connectivity.swift in Sources */,
+				046C9FAA211C31BE00556049 /* CategoryButtonCell.swift in Sources */,
 				0414CAB22109BA8400FF45C4 /* AppDelegate.swift in Sources */,
+				04BE244B211070BC006B1A3D /* StringExtention.swift in Sources */,
+				04BE2449210EDCA6006B1A3D /* StoryView.swift in Sources */,
+				046C9FAC211C3B9700556049 /* CategoryItem.swift in Sources */,
+				0414CAC42109BCF900FF45C4 /* StoriesGetter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +413,7 @@
 		};
 		0414CAC12109BA8700FF45C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F6AE020A901EB0513D8283 /* Pods-qurie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,12 +425,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nFactorial2018.qurie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0414CAC22109BA8700FF45C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C148C135A6CBD2601D24CB1 /* Pods-qurie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nFactorial2018.qurie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
